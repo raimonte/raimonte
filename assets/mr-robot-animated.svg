@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title description">
+  <title id="title">hello, friend.</title>
+  <desc id="description">Rayil / raimonte — Backend developer</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#111418"/>
+      <stop offset="1" stop-color="#1a1b18"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8c89b"/>
+      <stop offset="0.5" stop-color="#f1e7c9"/>
+      <stop offset="1" stop-color="#b9a574"/>
+    </linearGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4" stroke="#000000" stroke-opacity="0.12"/>
+    </pattern>
+    <clipPath id="typing"><rect x="48" y="74" id="greeting-reveal" width="620" height="110"/></clipPath>
+    <clipPath id="glitch-bands"><path d="M0 62H1280V67H0ZM0 112H1280V128H0ZM0 152H1280V160H0ZM0 187H1280V195H0ZM0 237H1280V242H0Z"/></clipPath>
+  </defs>
+  <g id="scene">
+    <rect x="0.5" y="0.5" width="1279" height="299" rx="8" fill="url(#background)" stroke="#343738"/>
+    <path d="M4 8V292" stroke="#f3d24f" stroke-width="4"/>
+    <path d="M844 24V276" stroke="#f3d24f" stroke-opacity="0.12" stroke-dasharray="2 8"/>
+    <g font-family="Menlo, Consolas, monospace">
+      <text x="48" y="47" fill="#969a94" font-size="14">raimonte@github</text>
+      <g clip-path="url(#typing)">
+        <text x="48" y="149" fill="#f3d24f" font-size="67" font-weight="700">hello, friend.</text>
+      </g>
+      <text x="50" y="204" fill="#eeeee8" font-size="24" font-weight="700">Rayil</text>
+      <text x="148" y="204" fill="#a0a49c" font-size="19">/ backend developer</text>
+      <text x="50" y="261" fill="#969a94" font-size="11" letter-spacing="2">CODE. QUESTION. REPEAT.</text>
+    </g>
+    <path d="M933 251Q933 48 1070 20Q1208 49 1208 251Z" fill="#0b0d10" stroke="#f3d24f" stroke-opacity="0.18"/>
+    <g transform="translate(980 31)">
+      <path d="M91 0C34 0 5 42 7 95C9 147 29 181 48 201C59 213 59 226 91 228C123 226 123 213 134 201C153 181 173 147 175 95C177 42 148 0 91 0Z" fill="url(#face)"/>
+      <path d="M8 73Q2 93 12 114L28 103L22 69Z M174 73Q180 93 170 114L154 103L160 69Z" fill="#eee9da"/>
+      <path d="M25 70C39 44 59 51 77 71C83 77 82 89 77 88C57 86 53 61 29 78Z M157 70C143 44 123 51 105 71C99 77 100 89 105 88C125 86 129 61 153 78Z" fill="#111418"/>
+      <path d="M29 98Q45 77 66 107Q48 107 29 98Z M153 98Q137 77 116 107Q134 107 153 98Z" fill="#111418"/>
+      <path d="M83 91Q87 122 78 131Q91 144 104 131Q95 122 99 91" fill="#b9a574" stroke="#9d895f" stroke-width="1.2"/>
+      <path d="M24 119C7 147 23 166 56 169C71 171 82 165 91 164C100 165 111 171 126 169C159 166 175 147 158 119C160 145 147 151 123 147C109 145 102 139 91 145C80 139 73 145 59 147C35 151 22 145 24 119Z" fill="#f7f0dc"/>
+      <path d="M49 174Q91 188 133 174Q113 194 91 193Q69 194 49 174Z" fill="#111418"/>
+      <path d="M59 175Q91 182 123 175L120 181Q91 187 62 181Z" fill="#f7f0dc"/>
+      <path d="M73 202Q91 196 109 202" fill="none" stroke="#b9a574" stroke-width="2"/>
+    </g>
+    <path d="M898 58V35H921M1222 35H1245V58M898 226V249H921M1222 249H1245V226" fill="none" stroke="#f3d24f" stroke-opacity="0.4"/>
+    <rect x="8" y="2" width="1264" height="296" fill="url(#scanlines)"/>
+  </g>
+  <g id="glitch-overlay" opacity="0">
+    <use xlink:href="#scene" clip-path="url(#glitch-bands)" transform="translate(6 0)"/>
+  </g>
+</svg>
